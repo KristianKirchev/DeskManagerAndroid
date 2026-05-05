@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/deskListFragment">
+
+    <fragment
+        android:id="@+id/deskListFragment"
+        android:name="com.deskmanager.app.presentation.desk.DeskListFragment"
+        android:label="Desks"
+        tools:layout="@layout/fragment_desk_list">
+
+        <action
+            android:id="@+id/action_deskListFragment_to_deskDetailFragment"
+            app:destination="@id/deskDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/deskDetailFragment"
+        android:name="com.deskmanager.app.presentation.desk.DeskDetailFragment"
+        android:label="Desk Detail"
+        tools:layout="@layout/fragment_desk_detail">
+
+        <argument
+            android:name="deskId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reservationHistoryFragment"
+        android:name="com.deskmanager.app.presentation.reservation.ReservationHistoryFragment"
+        android:label="My Reservations"
+        tools:layout="@layout/fragment_reservation_history" />
+
+    <fragment
+        android:id="@+id/officeMapFragment"
+        android:name="com.deskmanager.app.presentation.map.OfficeMapFragment"
+        android:label="Office Map"
+        tools:layout="@layout/fragment_office_map" />
+
+</navigation>

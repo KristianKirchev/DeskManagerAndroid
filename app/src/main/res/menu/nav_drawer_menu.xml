@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_desk_list"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/nav_desks" />
+
+        <item
+            android:id="@+id/nav_office_map"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="@string/nav_office_map" />
+
+        <item
+            android:id="@+id/nav_my_reservations"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="@string/nav_my_reservations" />
+
+        <item
+            android:id="@+id/nav_admin_panel"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/nav_admin_panel"
+            android:visible="false" />
+    </group>
+
+    <item android:title="@string/nav_account">
+        <menu>
+            <item
+                android:id="@+id/nav_language"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="@string/nav_language" />
+
+            <item
+                android:id="@+id/nav_test_notification"
+                android:icon="@drawable/ic_notification"
+                android:title="@string/btn_test_notification" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="@string/nav_logout" />
+        </menu>
+    </item>
+
+</menu>

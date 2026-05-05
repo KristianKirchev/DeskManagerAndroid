@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeskManager</string>
+    <string name="nav_open">Отвори навигационното меню</string>
+    <string name="nav_close">Затвори навигационното меню</string>
+
+    <!-- Login -->
+    <string name="login_title">DeskManager</string>
+    <string name="login_subtitle">Влезте в акаунта си</string>
+    <string name="hint_username">Потребителско име</string>
+    <string name="hint_password">Парола</string>
+    <string name="hint_full_name">Пълно име</string>
+    <string name="hint_password_min">Парола (мин. 6 символа)</string>
+    <string name="hint_confirm_password">Потвърдете паролата</string>
+    <string name="hint_search_desks">Търсене на бюра…</string>
+    <string name="hint_room_number">Номер на стая (напр. A-101)</string>
+    <string name="hint_floor_number">Номер на етаж</string>
+    <string name="btn_sign_in">Вход</string>
+    <string name="label_link_register">Нямате акаунт? Регистрирайте се</string>
+    <string name="label_demo_login">Бърз демо вход:</string>
+    <string name="btn_admin">Администратор</string>
+    <string name="btn_user">Потребител</string>
+    <string name="btn_guest">Гост</string>
+    <string name="error_username_required">Потребителското име е задължително</string>
+    <string name="error_password_required">Паролата е задължителна</string>
+
+    <!-- Register -->
+    <string name="register_title">Създаване на акаунт</string>
+    <string name="register_subtitle">Регистрирайте нов потребителски акаунт</string>
+    <string name="btn_register">Регистрация</string>
+    <string name="label_link_sign_in">Вече имате акаунт? Влезте</string>
+    <string name="error_name_required">Името е задължително</string>
+    <string name="error_username_min">Минимум 3 символа</string>
+    <string name="error_password_min">Минимум 6 символа</string>
+    <string name="error_passwords_no_match">Паролите не съвпадат</string>
+    <string name="msg_account_created">Акаунтът е създаден! Моля, влезте.</string>
+
+    <!-- Navigation drawer -->
+    <string name="nav_desks">Бюра</string>
+    <string name="nav_office_map">Карта на офиса</string>
+    <string name="nav_my_reservations">Моите резервации</string>
+    <string name="nav_admin_panel">Администраторски панел</string>
+    <string name="nav_account">Акаунт</string>
+    <string name="nav_logout">Изход</string>
+    <string name="nav_language">Language / Език</string>
+
+    <!-- Desk list -->
+    <string name="tab_all">Всички</string>
+    <string name="tab_available">Свободни</string>
+    <string name="tab_occupied">Заети</string>
+    <string name="msg_no_desks">Няма намерени бюра.</string>
+
+    <!-- Desk detail -->
+    <string name="msg_desk_unavailable">Това бюро е заето в момента. Проверете по-късно или изберете друго.</string>
+    <string name="msg_guest_no_reserve">Гостите не могат да правят резервации. Моля, регистрирайте се или влезте.</string>
+    <string name="btn_free_desk">Освободи бюрото</string>
+    <string name="label_make_reservation">Направи резервация</string>
+    <string name="label_start_date">Начална дата</string>
+    <string name="label_end_date">Крайна дата</string>
+    <string name="btn_select_start_date">Изберете начална дата</string>
+    <string name="btn_select_end_date">Изберете крайна дата</string>
+    <string name="btn_confirm_reservation">Потвърди резервацията</string>
+    <string name="msg_select_start_date">Моля, изберете начална дата</string>
+    <string name="msg_select_end_date">Моля, изберете крайна дата</string>
+    <string name="msg_end_before_start">Крайната дата не може да е преди началната</string>
+    <string name="msg_desk_not_found">Бюрото не е намерено</string>
+
+    <!-- Office map -->
+    <string name="btn_prev_floor">◀ Предишен</string>
+    <string name="btn_next_floor">Следващ ▶</string>
+    <string name="label_floor">Етаж %d</string>
+    <string name="label_no_floors">Няма налични етажи</string>
+    <string name="legend_available">Свободно</string>
+    <string name="legend_occupied">Заето</string>
+    <string name="msg_guest_map_note">Разглеждате като гост. Влезте, за да резервирате бюро.</string>
+    <string name="msg_desk_count">Показват се %1$d от %2$d бюра на този етаж</string>
+    <string name="dialog_reserve_title">Резервирай бюро</string>
+    <string name="btn_confirm">Потвърди</string>
+    <string name="btn_cancel_dialog">Откажи</string>
+
+    <!-- Reservation history -->
+    <string name="title_my_reservations">Моите резервации</string>
+    <string name="msg_no_reservations">Нямате резервации все още.</string>
+    <string name="btn_cancel_reservation">Откажи резервацията</string>
+    <string name="dialog_cancel_title">Отказване на резервация</string>
+    <string name="dialog_cancel_message">Сигурни ли сте, че искате да откажете резервацията за Бюро #%d?</string>
+    <string name="btn_close">Затвори</string>
+
+    <!-- Admin panel -->
+    <string name="title_admin_panel">Администраторски панел</string>
+    <string name="label_manage_desks">Управление на бюра</string>
+    <string name="label_all_reservations">Всички резервации</string>
+    <string name="label_fab_add_desk">Добави бюро</string>
+    <string name="btn_force_cancel">Принудително отказване</string>
+    <string name="dialog_manage_desk_title">Управление на бюро %s</string>
+    <string name="btn_edit">Редактирай</string>
+    <string name="btn_delete">Изтрий</string>
+    <string name="dialog_delete_title">Изтриване на бюро</string>
+    <string name="dialog_delete_message">Изтриване на бюро %s? Това не може да бъде отменено.</string>
+    <string name="dialog_add_desk_title">Добави бюро</string>
+    <string name="dialog_edit_desk_title">Редактирай бюро</string>
+    <string name="label_cb_mark_occupied">Маркирай като заето</string>
+    <string name="btn_save">Запази</string>
+    <string name="msg_fields_required">Всички полета са задължителни</string>
+    <string name="error_floor_invalid">Етажът трябва да е число</string>
+    <string name="msg_unauthorized">Неоторизиран достъп</string>
+
+    <!-- Admin tabs -->
+    <string name="tab_admin_desks">Бюра</string>
+    <string name="tab_admin_reservations">Резервации</string>
+    <string name="tab_admin_users">Потребители</string>
+
+    <!-- Admin: force-cancel reservation confirmation -->
+    <string name="dialog_force_cancel_title">Принудително отказване на резервация</string>
+    <string name="dialog_force_cancel_message">Отказване на резервация #%1$d за Бюро #%2$d? Това не може да бъде отменено.</string>
+
+    <!-- Admin: user role management -->
+    <string name="btn_make_admin">Направи администратор</string>
+    <string name="btn_make_user">Направи потребител</string>
+    <string name="dialog_change_role_message">Промяна на ролята на %1$s от %2$s на %3$s?</string>
+    <string name="dialog_confirm_role_title">Потвърдете промяната на роля</string>
+    <string name="dialog_confirm_role_message">Задаване на %1$s като %2$s?</string>
+    <string name="msg_role_updated">%1$s вече е %2$s</string>
+
+    <!-- Admin: user deletion -->
+    <string name="btn_delete_user">Изтрий</string>
+    <string name="dialog_delete_user_title">Изтриване на потребител</string>
+    <string name="dialog_delete_user_message">Изтриване на потребител \"%1$s\" (%2$s)?\n\nВсички активни резервации ще бъдат отказани и засегнатите бюра ще бъдат освободени. Това не може да бъде отменено.</string>
+    <string name="msg_user_deleted">Потребител \"%s\" беше изтрит</string>
+
+    <!-- Admin: password reset -->
+    <string name="btn_reset_password">Нулиране на парола</string>
+    <string name="dialog_reset_password_title">Нулиране на парола</string>
+    <string name="dialog_reset_password_message">Генериране на нова временна парола за %s?\n\nПотребителят ще трябва да зададе нова парола при следващото влизане.</string>
+    <string name="dialog_temp_password_title">Временна парола за %s</string>
+    <string name="dialog_temp_password_message">Споделете тази парола сигурно с потребителя. Той трябва да я смени при първото влизане.</string>
+    <string name="label_temp_password">Нова временна парола:</string>
+    <string name="btn_copy">Копирай</string>
+    <string name="msg_password_copied">Копирано в клипборда</string>
+
+    <!-- Change password screen -->
+    <string name="change_password_title">Задайте нова парола</string>
+    <string name="change_password_subtitle">Паролата ви беше нулирана от администратор.\nМоля, задайте нова парола, за да продължите.</string>
+    <string name="hint_new_password">Нова парола (мин. 6 символа)</string>
+    <string name="hint_confirm_new_password">Потвърдете новата парола</string>
+    <string name="btn_set_password">Задай парола</string>
+    <string name="msg_password_changed">Паролата е обновена успешно!</string>
+    <string name="msg_must_change_password">Трябва да зададете нова парола преди да продължите.</string>
+    <string name="error_user_not_found">Потребителят не е намерен. Моля, влезте отново.</string>
+
+    <!-- Language dialog -->
+    <string name="dialog_language_title">Language / Език</string>
+    <string name="lang_english">English</string>
+    <string name="lang_bulgarian">Български</string>
+
+    <!-- Dynamic labels (set at runtime) -->
+    <string name="label_date_start_prefix">Начало: %s</string>
+    <string name="label_date_end_prefix">Край: %s</string>
+    <string name="label_desk_room">Бюро %s</string>
+    <string name="label_desk_floor">Етаж %d</string>
+    <string name="label_desk_room_floor">Бюро %1$s  ·  Етаж %2$d</string>
+    <string name="label_reservation_desk">Бюро #%d</string>
+    <string name="label_reservation_id">Рез. #%d</string>
+    <string name="label_reservation_user">Потребител ID: %d</string>
+    <string name="label_reservation_username">Потребител: %s</string>
+    <string name="label_reservation_room">Бюро: %s</string>
+    <string name="label_date_range">%1$s → %2$s</string>
+
+    <!-- Notification channels -->
+    <string name="notif_channel_reservations">Резервации</string>
+    <string name="notif_channel_admin">Административни известия</string>
+    <string name="notif_channel_reminders">Напомняния</string>
+
+    <!-- Notification: welcome on login -->
+    <string name="notif_welcome_title">Добре дошъл, %s!</string>
+    <string name="notif_welcome_body_reservations">Имате %d активна/активни резервация/резервации.</string>
+    <string name="notif_welcome_body_none">Нямате активни резервации. Разгледайте бюрата.</string>
+
+    <!-- Notification: reservation confirmed -->
+    <string name="notif_reservation_confirmed_title">Резервацията е потвърдена</string>
+    <string name="notif_reservation_confirmed_body">Стая %1$s е резервирана от %2$s.</string>
+
+    <!-- Notification: admin force-cancelled -->
+    <string name="notif_admin_cancel_title">Резервацията е отказана от администратор</string>
+    <string name="notif_admin_cancel_body">Вашата резервация за стая %s беше отказана от администратор.</string>
+
+    <!-- Notification: reminder — starts tomorrow -->
+    <string name="notif_reminder_start_title">Резервацията започва утре</string>
+    <string name="notif_reminder_start_body">Стая %1$s е резервирана за вас от %2$s. Не забравяйте!</string>
+
+    <!-- Notification: reminder — ends tomorrow -->
+    <string name="notif_reminder_end_title">Резервацията изтича утре</string>
+    <string name="notif_reminder_end_body">Вашата резервация за стая %1$s приключва на %2$s.</string>
+
+    <!-- Notification: new desk added -->
+    <string name="notif_new_desk_title">Ново бюро е налично</string>
+    <string name="notif_new_desk_body">Стая %1$s на Етаж %2$d вече е достъпна за резервация.</string>
+
+    <!-- Notification: test -->
+    <string name="notif_test_title">Тестова нотификация</string>
+    <string name="notif_test_body">Това е демо нотификация от DeskManager.</string>
+    <string name="btn_test_notification">Тест на нотификации</string>
+
+    <!-- Toast messages -->
+    <string name="msg_guest_tap">Стая %1$s – %2$s\n(Влезте за резервация)</string>
+    <string name="msg_your_reservation">Резервирахте стая %s.\nОтидете в Моите резервации, за да я освободите.</string>
+    <string name="msg_occupied_other">Стая %s е заета от друг потребител.</string>
+
+    <!-- Enum display labels -->
+    <string name="status_available">Свободно</string>
+    <string name="status_occupied">Заето</string>
+    <string name="status_active">Активна</string>
+    <string name="status_cancelled">Отказана</string>
+    <string name="role_admin">Администратор</string>
+    <string name="role_user">Потребител</string>
+    <string name="role_guest">Гост</string>
+</resources>

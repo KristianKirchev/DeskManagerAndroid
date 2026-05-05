@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colours -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#5E92F3</color>
+    <color name="accent">#FF6F00</color>
+
+    <!-- Semantic colours -->
+    <color name="green_500">#4CAF50</color>
+    <color name="red_500">#F44336</color>
+    <color name="grey_500">#9E9E9E</color>
+
+    <!-- Text -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Status bar / navigation bar -->
+    <color name="colorPrimaryDark">#0D47A1</color>
+
+    <!-- Launcher icon background -->
+    <color name="ic_launcher_background">#1565C0</color>
+</resources>

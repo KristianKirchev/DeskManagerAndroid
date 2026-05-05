@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "com.deskmanager.app-debug-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.deskmanager.app-main-49:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_nav_header.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/nav_header.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.deskmanager.app-main-49:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_fragment_admin_desks.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/fragment_admin_desks.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_fragment_desk_detail.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/fragment_desk_detail.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_dialog_temp_password.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/dialog_temp_password.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/navigation_nav_graph.xml.flat",
+        "source": "com.deskmanager.app-main-49:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.deskmanager.app-main-49:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_fragment_office_map.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/fragment_office_map.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_activity_register.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.deskmanager.app-main-49:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.deskmanager.app-main-49:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.deskmanager.app-main-49:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_item_desk.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/item_desk.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/drawable_circle_red.xml.flat",
+        "source": "com.deskmanager.app-main-49:/drawable/circle_red.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/menu_nav_drawer_menu.xml.flat",
+        "source": "com.deskmanager.app-main-49:/menu/nav_drawer_menu.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_activity_change_password.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_activity_login.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/drawable_circle_green.xml.flat",
+        "source": "com.deskmanager.app-main-49:/drawable/circle_green.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.deskmanager.app-main-49:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_fragment_reservation_history.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/fragment_reservation_history.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.deskmanager.app-main-49:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_dialog_add_desk.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/dialog_add_desk.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.deskmanager.app-main-49:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/drawable_badge_role_background.xml.flat",
+        "source": "com.deskmanager.app-main-49:/drawable/badge_role_background.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.deskmanager.app-main-49:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_item_reservation.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/item_reservation.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.deskmanager.app-main-49:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_fragment_admin_reservations.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/fragment_admin_reservations.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_item_user_admin.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/item_user_admin.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_fragment_admin_users.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/fragment_admin_users.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_dialog_map_reserve.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/dialog_map_reserve.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/drawable_ic_notification.xml.flat",
+        "source": "com.deskmanager.app-main-49:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.deskmanager.app-main-49:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_activity_admin_panel.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/activity_admin_panel.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_activity_main.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_fragment_desk_list.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/fragment_desk_list.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.deskmanager.app-main-49:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-debug-47:/layout_item_reservation_admin.xml.flat",
+        "source": "com.deskmanager.app-main-49:/layout/item_reservation_admin.xml"
+    }
+]

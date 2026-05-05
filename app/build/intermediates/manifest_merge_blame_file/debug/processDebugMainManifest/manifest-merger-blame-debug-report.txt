@@ -1,0 +1,210 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.deskmanager.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:4:5-77
+11-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:4:22-74
+12    <uses-permission
+12-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:5:5-6:38
+13        android:name="android.permission.SCHEDULE_EXACT_ALARM"
+13-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:5:22-76
+14        android:maxSdkVersion="32" />
+14-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:6:9-35
+15    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+15-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:7:5-74
+15-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:7:22-71
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:8:5-81
+16-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:8:22-78
+17
+18    <permission
+18-->[androidx.core:core:1.13.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\9ee5ea716f7bc7782c9110b584815a5c\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.deskmanager.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.13.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\9ee5ea716f7bc7782c9110b584815a5c\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.13.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\9ee5ea716f7bc7782c9110b584815a5c\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.deskmanager.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.13.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\9ee5ea716f7bc7782c9110b584815a5c\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.13.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\9ee5ea716f7bc7782c9110b584815a5c\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:10:5-56:19
+25        android:name="com.deskmanager.app.DeskManagerApplication"
+25-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:17:9-47
+26        android:allowBackup="true"
+26-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:11:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.13.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\9ee5ea716f7bc7782c9110b584815a5c\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@mipmap/ic_launcher"
+30-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:12:9-43
+31        android:label="@string/app_name"
+31-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:13:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:14:9-54
+33        android:supportsRtl="true"
+33-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:15:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.DeskManager" >
+35-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:16:9-49
+36        <activity
+36-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:19:9-26:20
+37            android:name="com.deskmanager.app.presentation.auth.LoginActivity"
+37-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:20:13-60
+38            android:exported="true" >
+38-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:21:13-36
+39            <intent-filter>
+39-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:22:13-25:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:23:17-69
+40-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:23:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:24:17-77
+42-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:24:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:28:9-30:40
+46            android:name="com.deskmanager.app.presentation.auth.RegisterActivity"
+46-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:29:13-63
+47            android:exported="false" />
+47-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:30:13-37
+48        <activity
+48-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:32:9-34:40
+49            android:name="com.deskmanager.app.presentation.auth.ChangePasswordActivity"
+49-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:33:13-69
+50            android:exported="false" />
+50-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:34:13-37
+51        <activity
+51-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:36:9-38:40
+52            android:name="com.deskmanager.app.presentation.main.MainActivity"
+52-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:37:13-59
+53            android:exported="false" />
+53-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:38:13-37
+54        <activity
+54-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:40:9-42:40
+55            android:name="com.deskmanager.app.presentation.admin.AdminPanelActivity"
+55-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:41:13-66
+56            android:exported="false" />
+56-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:42:13-37
+57
+58        <receiver
+58-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:44:9-46:40
+59            android:name="com.deskmanager.app.utils.ReminderReceiver"
+59-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:45:13-51
+60            android:exported="false" />
+60-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:46:13-37
+61        <receiver
+61-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:48:9-54:20
+62            android:name="com.deskmanager.app.utils.BootReceiver"
+62-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:49:13-47
+63            android:exported="true" >
+63-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:50:13-36
+64            <intent-filter>
+64-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:51:13-53:29
+65                <action android:name="android.intent.action.BOOT_COMPLETED" />
+65-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:52:17-79
+65-->D:\kris\_uni\3kurs\2sem\pmu\project\pmu26\app\src\main\AndroidManifest.xml:52:25-76
+66            </intent-filter>
+67        </receiver>
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\117fca78345dcf2ff4f07d0a3301e79b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\117fca78345dcf2ff4f07d0a3301e79b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+71            android:authorities="com.deskmanager.app.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\117fca78345dcf2ff4f07d0a3301e79b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\117fca78345dcf2ff4f07d0a3301e79b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\117fca78345dcf2ff4f07d0a3301e79b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\117fca78345dcf2ff4f07d0a3301e79b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\117fca78345dcf2ff4f07d0a3301e79b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Kris\.gradle\caches\8.11.1\transforms\ab5d9d16eb89443ca895c4e0f42bf5a5\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Kris\.gradle\caches\8.11.1\transforms\ab5d9d16eb89443ca895c4e0f42bf5a5\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Kris\.gradle\caches\8.11.1\transforms\ab5d9d16eb89443ca895c4e0f42bf5a5\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+81                android:value="androidx.startup" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+82        </provider>
+83
+84        <uses-library
+84-->[androidx.window:window:1.0.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\b331bbb664cb25890a291bac58a9a42d\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+85            android:name="androidx.window.extensions"
+85-->[androidx.window:window:1.0.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\b331bbb664cb25890a291bac58a9a42d\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+86            android:required="false" />
+86-->[androidx.window:window:1.0.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\b331bbb664cb25890a291bac58a9a42d\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+87        <uses-library
+87-->[androidx.window:window:1.0.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\b331bbb664cb25890a291bac58a9a42d\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+88            android:name="androidx.window.sidecar"
+88-->[androidx.window:window:1.0.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\b331bbb664cb25890a291bac58a9a42d\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+89            android:required="false" />
+89-->[androidx.window:window:1.0.0] C:\Users\Kris\.gradle\caches\8.11.1\transforms\b331bbb664cb25890a291bac58a9a42d\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+90
+91        <service
+91-->[androidx.room:room-runtime:2.6.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\261e16757e04ebe223ddf8367e7f1130\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+92            android:name="androidx.room.MultiInstanceInvalidationService"
+92-->[androidx.room:room-runtime:2.6.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\261e16757e04ebe223ddf8367e7f1130\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+93            android:directBootAware="true"
+93-->[androidx.room:room-runtime:2.6.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\261e16757e04ebe223ddf8367e7f1130\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+94            android:exported="false" />
+94-->[androidx.room:room-runtime:2.6.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\261e16757e04ebe223ddf8367e7f1130\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+95
+96        <receiver
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+97            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+98            android:directBootAware="false"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+99            android:enabled="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+100            android:exported="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+101            android:permission="android.permission.DUMP" >
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+103                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+106                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+109                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+112                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Kris\.gradle\caches\8.11.1\transforms\757b937534df7b1571529f41f764ba3b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+113            </intent-filter>
+114        </receiver>
+115    </application>
+116
+117</manifest>

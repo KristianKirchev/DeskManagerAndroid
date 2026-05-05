@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FFB300</color>
+    <color name="background">#121212</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="ic_launcher_background">#1565C0</color>
+    <color name="primary">#5E92F3</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="primary_light">#90CAF9</color>
+    <color name="red_500">#EF5350</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="text_primary">#EEEEEE</color>
+    <color name="text_secondary">#BDBDBD</color>
+    <style name="Theme.DeskManager" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+</resources>

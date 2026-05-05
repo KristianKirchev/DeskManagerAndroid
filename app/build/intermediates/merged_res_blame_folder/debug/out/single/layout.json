@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\fragment_reservation_history.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\fragment_reservation_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\fragment_office_map.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\fragment_office_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\fragment_desk_list.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\fragment_desk_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\dialog_add_desk.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\dialog_add_desk.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\nav_header.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\item_reservation.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\item_reservation.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-mergeDebugResources-46:/layout/dialog_map_reserve.xml",
+        "source": "com.deskmanager.app-main-49:/layout/dialog_map_reserve.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-mergeDebugResources-46:/layout/item_reservation.xml",
+        "source": "com.deskmanager.app-main-49:/layout/item_reservation.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-mergeDebugResources-46:/layout/item_reservation_admin.xml",
+        "source": "com.deskmanager.app-main-49:/layout/item_reservation_admin.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-mergeDebugResources-46:/layout/fragment_desk_list.xml",
+        "source": "com.deskmanager.app-main-49:/layout/fragment_desk_list.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-mergeDebugResources-46:/layout/fragment_desk_detail.xml",
+        "source": "com.deskmanager.app-main-49:/layout/fragment_desk_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\dialog_map_reserve.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\dialog_map_reserve.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\activity_admin_panel.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\activity_admin_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-mergeDebugResources-46:/layout/dialog_add_desk.xml",
+        "source": "com.deskmanager.app-main-49:/layout/dialog_add_desk.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\item_desk.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\item_desk.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\item_reservation_admin.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\item_reservation_admin.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-mergeDebugResources-46:/layout/activity_login.xml",
+        "source": "com.deskmanager.app-main-49:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-mergeDebugResources-46:/layout/fragment_office_map.xml",
+        "source": "com.deskmanager.app-main-49:/layout/fragment_office_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-mergeDebugResources-46:\\layout\\fragment_desk_detail.xml",
+        "source": "C:\\Users\\Kris\\.gradle\\daemon\\8.4\\com.deskmanager.app-main-49:\\layout\\fragment_desk_detail.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-mergeDebugResources-46:/layout/fragment_reservation_history.xml",
+        "source": "com.deskmanager.app-main-49:/layout/fragment_reservation_history.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-mergeDebugResources-46:/layout/activity_register.xml",
+        "source": "com.deskmanager.app-main-49:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.deskmanager.app-mergeDebugResources-46:/layout/activity_admin_panel.xml",
+        "source": "com.deskmanager.app-main-49:/layout/activity_admin_panel.xml"
+    }
+]
